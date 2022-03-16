@@ -80,10 +80,34 @@
 
 html {
   font-family: "Raleway", sans-serif;
-  font-size: 22px;
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+@media (max-width: 574px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 575px) and (max-width: 690px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 691px) and (max-width: 899px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  html {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1101px) {
+  html {
+    font-size: 22px;
+  }
 }
 
 .body {
@@ -276,11 +300,21 @@ p {
   transition: 0.6s;
   color: rgba(1, 1, 1, 0.01);
 }
+@media (max-width: 849px) {
+  .header__toggle {
+    display: block;
+  }
+}
+@media (min-width: 850px) {
+  .header__toggle {
+    display: none;
+  }
+}
 .header__toggle > span {
   display: block;
   width: 26px;
   height: 2px;
-  background: #B32523;
+  background: #F3EFE6;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   -webkit-transform-origin: 3px 1px;
@@ -294,7 +328,7 @@ p {
 }
 .header .sticky .header__logo {
   visibility: visible;
-  width: 80px;
+  width: 8em;
 }
 .header .sticky .header__textlogo {
   visibility: visible;
@@ -320,6 +354,16 @@ p {
   padding: 0.625rem;
   color: #F3EFE6;
   text-align: center;
+}
+@media (max-width: 849px) {
+  .header__links {
+    display: none;
+  }
+}
+@media (min-width: 850px) {
+  .header__links {
+    display: inline;
+  }
 }
 .header__links a {
   font-size: 0.833rem;

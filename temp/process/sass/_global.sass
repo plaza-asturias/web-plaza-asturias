@@ -11,9 +11,19 @@
     
 html
     font-family: 'Raleway', sans-serif
-    font-size: 22px
     scroll-behavior: smooth
     box-sizing: border-box
+    @media (max-width: 574px)
+        font-size: 20px
+    @media (min-width: 575px) and (max-width: 690px)
+        font-size: 20px
+    @media (min-width: 691px) and (max-width: 899px)
+        font-size: 20px
+    @media (min-width: 900px) and (max-width: 1100px)
+        font-size: 21px
+    @media (min-width: 1101px)
+        font-size: 22px
+
 
 .body
     margin: 0
