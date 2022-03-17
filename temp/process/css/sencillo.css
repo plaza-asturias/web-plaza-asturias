@@ -84,9 +84,14 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-@media (max-width: 574px) {
+@media (max-width: 380px) {
   html {
-    font-size: 20px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 381px) and (max-width: 574px) {
+  html {
+    font-size: 18px;
   }
 }
 @media (min-width: 575px) and (max-width: 690px) {
@@ -101,12 +106,12 @@ html {
 }
 @media (min-width: 900px) and (max-width: 1100px) {
   html {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1101px) {
   html {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -394,25 +399,35 @@ section#masthead {
           flex-direction: column;
   height: 100vh;
 }
+@media (max-width: 574px) {
+  section#masthead img.logo {
+    width: 200px;
+  }
+}
+@media (min-width: 575px) and (max-width: 690px) {
+  section#masthead img.logo {
+    width: 230px;
+  }
+}
+@media (min-width: 691px) and (max-width: 899px) {
+  section#masthead img.logo {
+    width: 245px;
+  }
+}
 @media (min-width: 900px) {
   section#masthead img.logo {
-    width: 37vw;
+    width: 280px;
   }
 }
-@media (max-width: 899px) {
-  section#masthead img.logo {
-    width: 50vw;
-  }
+section#masthead h2.sm {
+  font-size: 1.44rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.82;
 }
-section#masthead h1.logo {
-  text-transform: none;
-  color: #F3EFE6;
-  text-align: center;
-}
-section#masthead .brand-descrip {
-  text-align: center;
-  margin-top: 0.6rem;
-  opacity: 0.5;
+section#masthead h3.lg {
+  font-size: 1.698rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.82;
 }
 section#masthead .arrow {
   font-size: 1.6em;
