@@ -620,3 +620,11 @@ section.description a.btn {
   margin-left: auto;
   margin-right: auto;
 }
+section.description .clearfix {
+  display: none;
+}
+@media (min-width: 600px) {
+  section.description .clearfix {
+    display: block;
+  }
+}
