@@ -628,3 +628,17 @@ section.description .clearfix {
     display: block;
   }
 }
+
+section.img-tape {
+  background: #B32523;
+  height: 7.5rem;
+  overflow: hidden;
+  margin: 0;
+}
+section.img-tape img {
+  margin: 0;
+  height: 100%;
+  display: inline;
+  vertical-align: top;
+  float: none;
+}
