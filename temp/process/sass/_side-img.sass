@@ -1,0 +1,23 @@
+section.side-img
+    color: $theme-dark
+    min-height: 21.45rem
+    padding: 5.625rem 0
+    @media (max-width: 690px)
+        background: url("../img/misc/asturias-salon.jpg") no-repeat, $theme-soft
+        background-size: cover
+        text-align: center
+    @media (min-width: 691px)
+        background: url("../img/misc/asturias-salon-faded.png") no-repeat, $theme-soft
+        background-position: right
+        background-size: contain
+
+
+    .text
+        @media (max-width: 690px)
+            grid-column: 1 / 13
+        @media (min-width: 691px)
+            grid-column: 2 / 7
+
+    span.name
+        display: block
+        font-family: 'Merriweather', serif

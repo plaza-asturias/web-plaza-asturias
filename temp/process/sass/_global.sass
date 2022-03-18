@@ -7,7 +7,7 @@
 *
     margin: 0
     padding: 0
-    box-sizing: border-box
+    box-sizing: border-box    
     
 html
     font-family: 'Raleway', sans-serif
@@ -45,9 +45,42 @@ h1
     font-family: 'Merriweather', serif
     font-weight: bold
 
+// spacing
+.container
+    padding-left: 20px
+    padding-right: 20px
+    
+.row-container
+    display: flex
+    justify-content: center
+    //padding-left: 1rem
+    //padding-right: 1rem
 .row
-    padding-left: 1.5em
-    padding-right: 1.5em
+    padding-left: 1em
+    padding-right: 1em
+    @media (min-width: 576px) and (max-width: 1199px)
+        max-width: 100vw
+    @media (min-width: 1200px)
+        max-width: 1140px
+
+.grid
+    display: grid
+    width: 100%
+    grid-template-columns: repeat( 12, 1fr)
+    column-gap: 20px
+
+    &-responsive
+        @media (max-width: 690px)
+            grid-template-columns: 1fr
+        @media (min-width: 691px)
+            grid-template-columns: repeat( 12, 1fr)
+
+    
+    
+
+
+    
+
 
 section
     scroll-margin-top: 51px // navbar height
@@ -67,10 +100,9 @@ p
     font-size: $fz-small
 
 
-// spacing
-.container
-    padding-left: 20px
-    padding-right: 20px
+
+
+
     
 // flexbox
 .flex
