@@ -109,9 +109,14 @@ html {
     font-size: 20px;
   }
 }
-@media (min-width: 1101px) {
+@media (min-width: 1101px) and (max-width: 1400px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1401px) {
+  html {
+    font-size: 24px;
   }
 }
 
