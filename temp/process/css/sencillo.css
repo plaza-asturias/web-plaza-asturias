@@ -118,7 +118,7 @@ html {
 .body {
   margin: 0;
   padding: 0;
-  line-height: 1.3;
+  line-height: 3.5rem;
 }
 .body.noscroll {
   overflow: hidden;
@@ -160,9 +160,9 @@ h1 {
     max-width: 100vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .row {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -236,6 +236,34 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn {
+  padding: 0.7em 1.3em;
+  border-radius: 22px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+.btn:hover {
+  font-weight: 400;
+}
+.btn-regular {
+  border: 2px solid #B32523;
+  color: #B32523;
+}
+.btn-regular:hover {
+  color: #F3EFE6;
+  background: #B32523;
+  border: 2px solid #B32523;
+}
+.btn-accent {
+  border: 2px solid #F4BC0E;
+  background: #F4BC0E;
+  color: #F3EFE6;
+}
+.btn-accent:hover {
+  border: 2px solid #f5c326;
+  background: #f5c326;
 }
 
 @media (max-width: 39.9375em) {
@@ -562,4 +590,28 @@ section.footer {
 section.footer p {
   text-align: center;
   font-size: 0.7rem;
+}
+
+section.description {
+  color: #393333;
+  background: #F3EFE6;
+  text-align: center;
+  padding-top: 135px;
+  padding-bottom: 160px;
+}
+section.description .name {
+  color: #B32523;
+  font-family: "Merriweather", serif;
+}
+section.description h2 {
+  margin-bottom: 1rem;
+}
+section.description p {
+  margin-bottom: 1.33rem;
+}
+section.description a.btn {
+  display: block;
+  max-width: 16em;
+  margin-left: auto;
+  margin-right: auto;
 }
