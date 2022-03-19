@@ -515,7 +515,7 @@ section#masthead .arrow {
 
 section.side-img {
   color: #393333;
-  min-height: 21.45rem;
+  min-height: 25rem;
   padding: 5.625rem 0;
 }
 @media (max-width: 690px) {
@@ -549,6 +549,9 @@ section.side-img {
 section.side-img span.name {
   display: block;
   font-family: "Merriweather", serif;
+}
+section.side-img h3 {
+  margin-bottom: 0.5rem;
 }
 
 section#contact {
@@ -655,7 +658,7 @@ section.img-tape img {
 }
 @media (min-width: 381px) and (max-width: 574px) {
   section.img-tape img {
-    height: 6rem;
+    height: 7rem;
   }
 }
 @media (min-width: 575px) and (max-width: 690px) {
