@@ -1,12 +1,30 @@
 section.img-tape
     background: $theme-primary
-    height: 7.5rem
     overflow: hidden
     margin: 0
+    display: flex
+    overflow-x: auto
+    height: auto
+    
 
+    &::-webkit-scrollbar
+        width: 0px
+        height: 0px
     img
-        margin: 0 
-        height: 100%
         display: inline
         vertical-align: top
-        float: none
+        height: 6rem
+        @media (max-width: 380px)
+            height: 5rem
+        @media (min-width: 381px) and (max-width: 574px)
+            height: 6rem
+        @media (min-width: 575px) and (max-width: 690px)
+            height: 6rem
+        @media (min-width: 691px) and (max-width: 899px)
+            height: 6rem
+        @media (min-width: 900px) and (max-width: 1100px)
+            height: 6rem
+        @media (min-width: 1101px) and (max-width: 1400px)
+            height: 6rem
+        @media (min-width: 1401px)
+            height: 7rem

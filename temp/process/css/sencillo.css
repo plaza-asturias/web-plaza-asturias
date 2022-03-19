@@ -631,14 +631,55 @@ section.description .clearfix {
 
 section.img-tape {
   background: #B32523;
-  height: 7.5rem;
   overflow: hidden;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  height: auto;
+}
+section.img-tape::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
 }
 section.img-tape img {
-  margin: 0;
-  height: 100%;
   display: inline;
   vertical-align: top;
-  float: none;
+  height: 6rem;
+}
+@media (max-width: 380px) {
+  section.img-tape img {
+    height: 5rem;
+  }
+}
+@media (min-width: 381px) and (max-width: 574px) {
+  section.img-tape img {
+    height: 6rem;
+  }
+}
+@media (min-width: 575px) and (max-width: 690px) {
+  section.img-tape img {
+    height: 6rem;
+  }
+}
+@media (min-width: 691px) and (max-width: 899px) {
+  section.img-tape img {
+    height: 6rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+  section.img-tape img {
+    height: 6rem;
+  }
+}
+@media (min-width: 1101px) and (max-width: 1400px) {
+  section.img-tape img {
+    height: 6rem;
+  }
+}
+@media (min-width: 1401px) {
+  section.img-tape img {
+    height: 7rem;
+  }
 }
