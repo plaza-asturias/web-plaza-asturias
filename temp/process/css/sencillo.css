@@ -244,7 +244,7 @@ p {
 }
 
 .btn {
-  padding: 0.7em 1.3em;
+  padding: 0.5rem 1.3em;
   border-radius: 22px;
   font-weight: 400;
   margin-bottom: 0.5em;
@@ -253,7 +253,7 @@ p {
   font-weight: 400;
 }
 .btn-regular {
-  border: 2px solid #B32523;
+  border: 1px solid #B32523;
   color: #B32523;
 }
 .btn-regular:hover {
@@ -262,12 +262,12 @@ p {
   border: 2px solid #B32523;
 }
 .btn-accent {
-  border: 2px solid #F4BC0E;
+  border: 1px solid #F4BC0E;
   background: #F4BC0E;
   color: #F3EFE6;
 }
 .btn-accent:hover {
-  border: 2px solid #f5c326;
+  border: 1px solid #f5c326;
   background: #f5c326;
 }
 
@@ -681,5 +681,23 @@ section.img-tape img {
 @media (min-width: 1401px) {
   section.img-tape img {
     height: 7rem;
+  }
+}
+
+section.secondary-cta {
+  background: #F3D994;
+  color: #B32523;
+  text-align: center;
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+section.secondary-cta p {
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 691px) {
+  section.secondary-cta p {
+    max-width: 26rem;
   }
 }
