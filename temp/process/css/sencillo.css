@@ -704,3 +704,65 @@ section.secondary-cta p {
     max-width: 26rem;
   }
 }
+
+section#location {
+  min-height: 26.16rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 899px) {
+  section#location {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#location .map {
+    width: 100%;
+    height: 10rem;
+  }
+  section#location .map iframe {
+    width: 100%;
+    height: 100%;
+  }
+  section#location .info {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 900px) {
+  section#location {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  section#location .map {
+    width: 50%;
+  }
+  section#location .map iframe {
+    width: 100%;
+    height: 100%;
+  }
+  section#location .info {
+    width: 50%;
+  }
+}
+section#location .info {
+  background: #F3EFE6;
+  color: #393333;
+  padding: 2.5rem 3.5rem;
+}
+section#location .info p:first-of-type {
+  margin-bottom: 1rem;
+}
+section#location .info .item {
+  margin-bottom: 0.5rem;
+}
+section#location .info span {
+  display: block;
+}
+section#location .info strong {
+  font-weight: 500;
+}
