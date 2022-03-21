@@ -157,6 +157,7 @@ h1 {
 }
 
 .row {
+  display: block;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -554,40 +555,6 @@ section.side-img h3 {
   margin-bottom: 0.5rem;
 }
 
-section#contact {
-  padding: 110px 20px;
-  background: #F3EFE6;
-  color: #393333;
-  text-align: center;
-  line-height: 1.3em;
-}
-section#contact .link-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 0.5rem;
-}
-section#contact .link-wrapper svg {
-  margin-right: 0.3rem;
-  width: 1.5rem;
-}
-section#contact .link-wrapper-whatsapp p {
-  padding-top: 0.125rem;
-}
-section#contact h2 {
-  max-width: 29rem;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.3em;
-}
-
 section.footer {
   font-size: 0.7rem;
   margin: 0;
@@ -705,32 +672,32 @@ section.secondary-cta p {
   }
 }
 
-section#location {
+section#contacto {
   min-height: 26.16rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @media (max-width: 899px) {
-  section#location {
+  section#contacto {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  section#location .map {
+  section#contacto .map {
     width: 100%;
     height: 10rem;
   }
-  section#location .map iframe {
+  section#contacto .map iframe {
     width: 100%;
     height: 100%;
   }
-  section#location .info {
+  section#contacto .info {
     width: 100%;
     text-align: center;
   }
-  section#location .info .link-wrapper {
+  section#contacto .info .link-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -740,23 +707,23 @@ section#location {
   }
 }
 @media (min-width: 900px) {
-  section#location {
+  section#contacto {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  section#location .map {
+  section#contacto .map {
     width: 50%;
   }
-  section#location .map iframe {
+  section#contacto .map iframe {
     width: 100%;
     height: 100%;
   }
-  section#location .info {
+  section#contacto .info {
     width: 50%;
   }
-  section#location .info .link-wrapper {
+  section#contacto .info .link-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -769,32 +736,70 @@ section#location {
             align-items: center;
   }
 }
-section#location .info {
+section#contacto .info {
   background: #F3EFE6;
   color: #393333;
   padding: 2.5rem 3.5rem;
 }
-section#location .info p:first-of-type {
+section#contacto .info p:first-of-type {
   margin-bottom: 1rem;
 }
-section#location .info .item {
+section#contacto .info .item {
   margin-bottom: 0.5rem;
 }
-section#location .info h4 {
+section#contacto .info h4 {
   font-weight: 500;
 }
-section#location .info .link-wrapper {
+section#contacto .info .link-wrapper {
   vertical-align: middle;
 }
-section#location .info .link-wrapper img {
+section#contacto .info .link-wrapper img {
   padding-right: 0.5rem;
 }
-section#location .info .link-wrapper p {
+section#contacto .info .link-wrapper p {
   margin-bottom: 0;
 }
-section#location .info span {
+section#contacto .info span {
   display: block;
 }
-section#location .info strong {
+section#contacto .info strong {
   font-weight: 500;
+}
+
+section#social {
+  margin: 0;
+  padding: 2.3rem 10px;
+  background: #B32523;
+  color: #F3EFE6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#social .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section#social img.logo-var3 {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+section#social .social-wrapper img {
+  width: 1.375rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
