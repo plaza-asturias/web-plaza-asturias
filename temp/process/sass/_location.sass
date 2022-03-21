@@ -12,6 +12,9 @@ section#location
         .info
             width: 100%
             text-align: center
+            .link-wrapper
+                display: flex
+                justify-content: center
 
     @media (min-width: 900px)
         flex-direction: row
@@ -22,6 +25,10 @@ section#location
                 height: 100%
         .info
             width: 50%
+            .link-wrapper
+                display: flex
+                flex-direction: row
+                align-items: center
     
     .info
         background: $theme-soft
@@ -31,6 +38,14 @@ section#location
             margin-bottom: 1rem
         .item
             margin-bottom: 0.5rem
+        h4
+            font-weight: 500
+        .link-wrapper
+            vertical-align: middle
+            img
+                padding-right: 0.5rem
+            p
+                margin-bottom: 0
         span
             display: block
         strong
