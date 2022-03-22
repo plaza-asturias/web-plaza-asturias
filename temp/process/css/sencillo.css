@@ -455,6 +455,10 @@ p {
   margin-right: 16px;
 }
 
+body.sub header nav {
+  background-color: #9e211f;
+}
+
 section#masthead {
   color: #F3EFE6;
   background-color: #F3EFE6;
@@ -512,6 +516,39 @@ section#masthead .arrow {
   font-size: 1.6em;
   margin-top: 1em;
   color: #F4BC0E;
+}
+
+section#sub-masthead {
+  margin: 0;
+  padding: 2.3rem 10px;
+  background: #B32523;
+  color: #F3EFE6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#sub-masthead .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section#sub-masthead h2.title {
+  font-family: "Merriweather", serif;
+}
+body.sub section#sub-masthead {
+  margin-top: 2.33rem;
 }
 
 section.side-img {
