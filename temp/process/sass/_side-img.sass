@@ -2,16 +2,7 @@ section.side-img
     color: $theme-dark
     min-height: 25rem
     padding: 5.625rem 0
-    @media (max-width: 690px)
-        background: url("../img/misc/asturias-salon.jpg") no-repeat, $theme-soft
-        background-size: cover
-        text-align: center
-    @media (min-width: 691px)
-        background: url("../img/misc/asturias-salon-faded.png") no-repeat, $theme-soft
-        background-position: right
-        background-size: contain
-
-
+    
     .text
         @media (max-width: 690px)
             grid-column: 1 / 13
@@ -23,3 +14,25 @@ section.side-img
         font-family: 'Merriweather', serif
     h3
         margin-bottom: 0.5rem
+
+body#home
+    section.side-img
+        @media (max-width: 690px)
+            background: url("../img/misc/asturias-welcome.jpg") no-repeat, $theme-soft
+            background-size: cover
+            text-align: center
+        @media (min-width: 691px)
+            background: url("../img/misc/asturias-welcome-faded.png") no-repeat, $theme-soft
+            background-position: right
+            background-size: contain
+
+body#salon
+    section.side-img
+        @media (max-width: 690px)
+            background: url("../img/misc/asturias-salon.jpg") no-repeat, $theme-soft
+            background-size: cover
+            text-align: center
+        @media (min-width: 691px)
+            background: url("../img/misc/asturias-salon-faded.png") no-repeat, $theme-soft
+            background-position: right
+            background-size: contain
