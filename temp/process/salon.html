@@ -103,7 +103,16 @@
 	<section class="img-and-description">
 		<div class="row-container">
 			<div class="row">
-				<div class="img"><img src="img/misc/salon-thumb.jpg" alt=""></div>
+				<div class="img"><img id="slider" src="img/fotos/sm/plaza-asturias-salon-01.jpg" alt="Salón Plaza Asturias"></div>
+
+				<!--
+				<div class="lastMain">
+					<a href="www.comingsoon.com" id="slider">
+					  <img id="mainPhoto">
+					</a>
+				  </div>
+				-->
+
 				<div class="text">
 					<p>Amnolestie egestas at te asmpus congue sed dignissim sed molestie. Id tortor eu mollis quam. Pharetra at at congue orci nulla egestas habitant. Ultricies ipsum baris ipso also fastu egestas at tempus.</p>
 					<p>Congue sed dignissim sed molestie. Id tortor eu mollis quam. Pharetra at at congue orci nulla egestas habitant. Ultricies ipsum baris ipso also fastu</p>
@@ -121,7 +130,6 @@
 					<p>Podés mandarnos un mensaje o audio por whatsapp y, con gusto, te despejaremos cualquier duda</p>
 				</div>
 				<div class="btn-wrapper">
-					
 					<a href="https://wa.me/5491141961248?text=¡Buenas!,%20quisiera%20hacer%20un%20pedido%20o%20reserva" class="btn btn-regular"><i class="bi bi-whatsapp"></i> Mandanos un <strong>mensaje</strong>!</a>
 				</div>
 			</div>
@@ -200,6 +208,37 @@
 			var header = document.querySelector("nav");
 			header.classList.toggle("sticky", window.scrollY > 180);
 		})
+	</script>
+
+	<script type="text/javascript">
+		var images = [];
+
+		images[0] = ['img/fotos/sm/plaza-asturias-salon-01.jpg'];
+		images[1] = ['img/fotos/sm/plaza-asturias-salon-03.jpg'];
+		images[2] = ['img/fotos/sm/plaza-asturias-salon-04.jpg'];
+		images[3] = ['img/fotos/sm/plaza-asturias-salon-05.jpg'];
+		images[4] = ['img/fotos/sm/plaza-asturias-salon-09.jpg'];
+		images[5] = ['img/fotos/sm/plaza-asturias-salon-16.jpg'];
+		images[6] = ['img/fotos/sm/plaza-asturias-salon-18.jpg'];
+		images[7] = ['img/fotos/sm/plaza-asturias-salon-19.jpg'];
+		images[8] = ['img/fotos/sm/plaza-asturias-salon-26.jpg'];
+		images[9] = ['img/fotos/sm/plaza-asturias-salon-29.jpg'];
+		images[10] = ['img/fotos/sm/plaza-asturias-salon-34.jpg'];
+		images[11] = ['img/fotos/sm/plaza-asturias-salon-39.jpg'];
+		var index = 0;
+
+		function change() {
+		document.getElementById("slider").src = images[index];
+		if (index == 11) {
+			index = 0;
+		} else {
+			index++;
+		}
+
+		setTimeout(change, 3000);
+		}
+
+		window.onload = change();
 	</script>
 	<script src="js/script.js"></script>
 </body>

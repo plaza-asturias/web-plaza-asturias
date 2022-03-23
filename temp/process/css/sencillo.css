@@ -711,6 +711,9 @@ section.img-and-description div.img img {
 section.img-and-description .text {
   max-width: 23rem;
 }
+section.img-and-description .lastMain img {
+  max-width: 400px;
+}
 
 section.img-tape {
   background: #B32523;
