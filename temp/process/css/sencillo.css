@@ -560,14 +560,14 @@ section.side-img {
   min-height: 25rem;
   padding: 5.625rem 0;
 }
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   section.side-img .text {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1/13;
   }
 }
-@media (min-width: 691px) {
+@media (min-width: 851px) {
   section.side-img .text {
     -ms-grid-column: 2;
     -ms-grid-column-span: 5;
@@ -579,14 +579,14 @@ section.side-img span.name {
   font-family: "Merriweather", serif;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   body#home section.side-img {
     background: url("../img/misc/asturias-welcome.jpg") no-repeat, #F3EFE6;
     background-size: cover;
     text-align: center;
   }
 }
-@media (min-width: 691px) {
+@media (min-width: 851px) {
   body#home section.side-img {
     background: url("../img/misc/asturias-welcome-faded.png") no-repeat, #F3EFE6;
     background-position: right;
@@ -594,14 +594,14 @@ section.side-img span.name {
   }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   body#salon section.side-img {
     background: url("../img/misc/asturias-salon.jpg") no-repeat, #F3EFE6;
     background-size: cover;
     text-align: center;
   }
 }
-@media (min-width: 691px) {
+@media (min-width: 851px) {
   body#salon section.side-img {
     background: url("../img/misc/asturias-salon-faded.png") no-repeat, #F3EFE6;
     background-position: right;
@@ -609,14 +609,14 @@ section.side-img span.name {
   }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   body#carta section.side-img {
     background: url("../img/misc/asturias-salon.jpg") no-repeat, #F3EFE6;
     background-size: cover;
     text-align: center;
   }
 }
-@media (min-width: 691px) {
+@media (min-width: 851px) {
   body#carta section.side-img {
     background: url("../img/misc/asturias-carta-faded.png") no-repeat, #F3EFE6;
     background-position: right;
