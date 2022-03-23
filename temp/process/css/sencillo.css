@@ -771,8 +771,8 @@ section.secondary-cta {
   background: #F3D994;
   color: #B32523;
   text-align: center;
-  padding-top: 135px;
-  padding-bottom: 135px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 section.secondary-cta p {
   margin-bottom: 2rem;
@@ -783,6 +783,12 @@ section.secondary-cta p {
   section.secondary-cta p {
     max-width: 26rem;
   }
+}
+section.secondary-cta .btn-wrapper i.bi {
+  margin-right: 0.25rem;
+  font-size: 1.2rem;
+  position: relative;
+  top: 1px;
 }
 
 section#contacto {
