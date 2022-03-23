@@ -608,6 +608,21 @@ section.side-img h3 {
   }
 }
 
+@media (max-width: 690px) {
+  body#carta section.side-img {
+    background: url("../img/misc/asturias-salon.jpg") no-repeat, #F3EFE6;
+    background-size: cover;
+    text-align: center;
+  }
+}
+@media (min-width: 691px) {
+  body#carta section.side-img {
+    background: url("../img/misc/asturias-carta-faded.png") no-repeat, #F3EFE6;
+    background-position: right;
+    background-size: contain;
+  }
+}
+
 section.footer {
   font-size: 0.7rem;
   margin: 0;
