@@ -574,6 +574,9 @@ section.side-img {
     grid-column: 2/7;
   }
 }
+section.side-img .text p {
+  margin-bottom: 1.5rem;
+}
 section.side-img span.name {
   display: block;
   font-family: "Merriweather", serif;
