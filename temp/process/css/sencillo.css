@@ -466,7 +466,7 @@ body.sub header nav {
 section#masthead {
   color: #F3EFE6;
   background-color: #F3EFE6;
-  background: url(../img/misc/hero.jpg);
+  background: url(../img/misc/hero.webp);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
