@@ -93,33 +93,53 @@
 			<div class="row grid">
 				<div class="text">
 					<h3>Vení a conocer <span class="name">Nuestro Salón</span></h3>
-					<p>Disfrutá de todo el sabor español en un espacio ameno y con la mejor atención.</p>
+					<p>Disfrutá de todo el sabor español en un espacio ameno y con la mejor atención.
+					<br>Contamos con un amplio salón en el que podrá disfrutar un buen momento con familiares y amigos.
+					<br>Mantenemos todos los protocolos sanitarios y nos esforzamos para que se sienta como en su casa.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	
-	<section class="img-and-description">
-		<div class="row-container">
-			<div class="row">
-				<div class="img"><img id="slider" src="img/fotos/sm/plaza-asturias-salon-01.jpg" alt="Salón Plaza Asturias"></div>
-
-				<!--
-				<div class="lastMain">
-					<a href="www.comingsoon.com" id="slider">
-					  <img id="mainPhoto">
-					</a>
-				  </div>
-				-->
-
-				<div class="text">
-					<p>Contamos con un amplio salón en el que podrá disfrutar un buen momento con familiares y amigos.</p>
-					<p>Mantenemos todos los protocolos sanitarios y nos esforzamos para que se sienta como en su casa.</p>
-				</div>
-			</div>
+	<section class="carousel">
+		<div class="slideshow-container">			
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-01.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-02.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-39.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-04.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-05.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-08.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-09.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-17.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-18.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-19.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-21.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-22.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-24.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-25.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-26.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-28.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-29.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-30.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-31.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-32.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-36.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-37.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-47.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-41.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-45.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-46.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-48.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-49.jpg);"></div>
+			<div class="mySlides fade image" style="background-image: url(img/fotos/sm/plaza-asturias-salon-50.jpg);"></div>
+			
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+			
 		</div>
 	</section>
+	
 
 	
 	
@@ -135,6 +155,8 @@
 			</div>
 		</div>
 	</section>
+
+	
 
 	<section id="contacto">
 		<div class="map">
@@ -209,37 +231,55 @@
 			header.classList.toggle("sticky", window.scrollY > 180);
 		})
 	</script>
-
+	
+	<!-- carousel -->
 	<script type="text/javascript">
-		var images = [];
+		let slideIndex = 1;
+		showSlides(slideIndex);
 
-		images[0] = ['img/fotos/sm/plaza-asturias-salon-01.jpg'];
-		images[1] = ['img/fotos/sm/plaza-asturias-salon-03.jpg'];
-		images[2] = ['img/fotos/sm/plaza-asturias-salon-04.jpg'];
-		images[3] = ['img/fotos/sm/plaza-asturias-salon-05.jpg'];
-		images[4] = ['img/fotos/sm/plaza-asturias-salon-09.jpg'];
-		images[5] = ['img/fotos/sm/plaza-asturias-salon-16.jpg'];
-		images[6] = ['img/fotos/sm/plaza-asturias-salon-18.jpg'];
-		images[7] = ['img/fotos/sm/plaza-asturias-salon-19.jpg'];
-		images[8] = ['img/fotos/sm/plaza-asturias-salon-26.jpg'];
-		images[9] = ['img/fotos/sm/plaza-asturias-salon-29.jpg'];
-		images[10] = ['img/fotos/sm/plaza-asturias-salon-34.jpg'];
-		images[11] = ['img/fotos/sm/plaza-asturias-salon-39.jpg'];
-		var index = 0;
-
-		function change() {
-		document.getElementById("slider").src = images[index];
-		if (index == 11) {
-			index = 0;
-		} else {
-			index++;
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
 		}
 
-		setTimeout(change, 3000);
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
 		}
 
-		window.onload = change();
+		function showSlides(n) {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}    
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		}
+		
+
 	</script>
+	<script>
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+
 	<script src="js/script.js"></script>
 </body>
 </html>
