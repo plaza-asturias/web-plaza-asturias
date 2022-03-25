@@ -592,6 +592,30 @@ section.side-img span.name {
 @media (min-width: 851px) {
   body#home section.side-img {
     background: url("../img/misc/asturias-welcome-faded.png") no-repeat, #F3EFE6;
+    background-position: 320%;
+    background-size: contain;
+  }
+}
+@media (min-width: 900px) {
+  body#home section.side-img {
+    background-position: 220%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#home section.side-img {
+    background-position: 150%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#home section.side-img {
+    background-position: 160%;
+    background-size: contain;
+  }
+}
+@media (min-width: 1200px) {
+  body#home section.side-img {
     background-position: right;
     background-size: contain;
   }
@@ -607,6 +631,30 @@ section.side-img span.name {
 @media (min-width: 851px) {
   body#salon section.side-img {
     background: url("../img/misc/asturias-salon-faded.png") no-repeat, #F3EFE6;
+    background-position: 320%;
+    background-size: contain;
+  }
+}
+@media (min-width: 900px) {
+  body#salon section.side-img {
+    background-position: 220%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#salon section.side-img {
+    background-position: 150%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#salon section.side-img {
+    background-position: 160%;
+    background-size: contain;
+  }
+}
+@media (min-width: 1200px) {
+  body#salon section.side-img {
     background-position: right;
     background-size: contain;
   }
@@ -622,6 +670,30 @@ section.side-img span.name {
 @media (min-width: 851px) {
   body#carta section.side-img {
     background: url("../img/misc/asturias-carta-faded.png") no-repeat, #F3EFE6;
+    background-position: 320%;
+    background-size: contain;
+  }
+}
+@media (min-width: 900px) {
+  body#carta section.side-img {
+    background-position: 220%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#carta section.side-img {
+    background-position: 150%;
+    background-size: contain;
+  }
+}
+@media (min-width: 964px) {
+  body#carta section.side-img {
+    background-position: 160%;
+    background-size: contain;
+  }
+}
+@media (min-width: 1200px) {
+  body#carta section.side-img {
     background-position: right;
     background-size: contain;
   }
