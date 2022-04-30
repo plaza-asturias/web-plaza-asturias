@@ -1025,15 +1025,11 @@ section.dishes-list {
   padding-bottom: 160px;
   line-height: 1.4rem;
 }
-section.dishes-list h3 {
-  margin-bottom: 1rem;
-}
 section.dishes-list li {
   margin-bottom: 0.2rem;
 }
 
 .card-container {
-  background-color: #cc99ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1088,12 +1084,13 @@ section.dishes-list li {
   border-radius: 10px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
 }
 @media (max-width: 767px) {
   .card {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1117,33 +1114,47 @@ section.dishes-list li {
   margin: 0;
   padding: 0 1rem;
 }
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
 .card .desc {
-  font-size: 12px;
+  font-size: 0.7rem;
+}
+.card .price {
+  margin-top: 0.2rem;
 }
 .card .card-text {
   display: -ms-grid;
   display: grid;
   width: 19rem;
+  text-align: left;
 }
 .card .title-total {
   padding: 1.5em 1em 1em 1em;
 }
-
-path {
-  fill: white;
-}
-path .portada {
+.card .portada {
   width: 12rem;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-position: bottom center;
   background-size: cover;
 }
-path .portada-paella-valenciana {
+.card .portada-paella-valenciana {
   background-image: url("../img/fotos/platos/plaza-asturias-paella-thumb.jpg");
 }
-path .portada-cazuela-mariscos {
+.card .portada-cazuela-mariscos {
   background-image: url("../img/fotos/platos/plaza-asturias-cazuela-mariscos-thumb.jpg");
+}
+.card .portada-parrillada {
+  background-image: url("../img/fotos/platos/plaza-asturias-parrillada-thumb.jpg");
+}
+.card .portada-suprema-plaza {
+  background-image: url("../img/fotos/platos/plaza-asturias-suprema-thumb.jpg");
+}
+.card .portada-sin-foto {
+  background-image: url("../img/fotos/platos/plaza-asturias-plato-sin-foto.png");
 }
 
 section.carousel {
