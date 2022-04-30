@@ -1021,8 +1021,8 @@ section.dishes-list {
   color: #393333;
   background: #F3EFE6;
   text-align: center;
-  padding-top: 135px;
-  padding-bottom: 160px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   line-height: 1.4rem;
 }
 section.dishes-list li {
