@@ -1142,19 +1142,28 @@ section.dishes-list li {
   background-size: cover;
 }
 .card .portada-paella-valenciana {
-  background-image: url("../img/fotos/platos/plaza-asturias-paella-thumb.jpg");
+  background-image: url("../img/fotos/platos/plaza-asturias-paella.webp");
 }
 .card .portada-cazuela-mariscos {
-  background-image: url("../img/fotos/platos/plaza-asturias-cazuela-mariscos-thumb.jpg");
+  background-image: url("../img/fotos/platos/plaza-asturias-cazuela-mariscos.webp");
 }
 .card .portada-parrillada {
-  background-image: url("../img/fotos/platos/plaza-asturias-parrillada-thumb.jpg");
+  background-image: url("../img/fotos/platos/plaza-asturias-parrillada.webp");
 }
 .card .portada-suprema-plaza {
-  background-image: url("../img/fotos/platos/plaza-asturias-suprema-thumb.jpg");
+  background-image: url("../img/fotos/platos/plaza-asturias-suprema.webp");
+}
+.card .portada-filet-merluza-romana {
+  background-image: url("../img/fotos/platos/plaza-asturias-filet-merluza-romana.webp");
+}
+.card .portada-mondongo-espanola {
+  background-image: url("../img/fotos/platos/plaza-asturias-mondongo-espanola.webp");
+}
+.card .portada-super-milanesa {
+  background-image: url("../img/fotos/platos/plaza-asturias-super-milanesa.webp");
 }
 .card .portada-sin-foto {
-  background-image: url("../img/fotos/platos/plaza-asturias-plato-sin-foto.png");
+  background-image: url("../img/fotos/platos/plaza-asturias-plato-sin-foto.webp");
 }
 
 section.carousel {
