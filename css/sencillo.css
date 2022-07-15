@@ -297,7 +297,7 @@ p {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -332,6 +332,7 @@ p {
 }
 .header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 .header.open .header__toggle > span:nth-child(2) {
@@ -339,6 +340,7 @@ p {
 }
 .header.open .header__toggle > span:last-child {
   -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 .header .overlay {
@@ -349,6 +351,7 @@ p {
   bottom: 0;
   left: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#393333), to(transparent));
+  background-image: -o-linear-gradient(#393333, transparent);
   background-image: linear-gradient(#393333, transparent);
   z-index: 10001;
 }
@@ -361,6 +364,7 @@ p {
   left: 0;
   width: 100%;
   -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
   transition: 0.6s;
   z-index: 10005;
 }
@@ -375,6 +379,7 @@ p {
   width: 1px;
   visibility: hidden;
   -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
   transition: 0.6s;
 }
 .header__textlogo {
@@ -382,6 +387,7 @@ p {
   font-family: "Merriweather", serif;
   visibility: hidden;
   -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
   transition: 0.6s;
   color: rgba(1, 1, 1, 0.01);
 }
@@ -401,8 +407,10 @@ p {
   height: 2px;
   background: #F3EFE6;
   -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   -webkit-transform-origin: 3px 1px;
+      -ms-transform-origin: 3px 1px;
           transform-origin: 3px 1px;
 }
 .header__toggle > span:not(:last-child) {
@@ -453,6 +461,7 @@ p {
 .header__links a {
   font-size: 0.833rem;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 .header__links a:not(:last-child) {
@@ -1025,8 +1034,21 @@ section.dishes-list {
   padding-bottom: 3rem;
   line-height: 1.4rem;
 }
+section.dishes-list h3 {
+  margin-top: 2rem;
+  color: #B32523;
+}
+section.dishes-list span.subtitle {
+  font-size: 1rem;
+  display: block;
+}
 section.dishes-list li {
   margin-bottom: 0.2rem;
+}
+section.dishes-list li .dish-descrip {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .card-container {
@@ -1069,6 +1091,7 @@ section.dishes-list li {
 
 .card {
   -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
   background: #fff;
   min-height: 8rem;
@@ -1083,6 +1106,7 @@ section.dishes-list li {
           flex-direction: row;
   border-radius: 10px;
   -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
   line-height: 1rem;
   margin-bottom: 0.5rem;
@@ -1203,6 +1227,7 @@ section.carousel .prev {
   font-weight: bold;
   font-size: 18px;
   -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
@@ -1221,6 +1246,7 @@ section.carousel .next {
   font-weight: bold;
   font-size: 18px;
   -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
@@ -1258,6 +1284,7 @@ section.carousel .dot {
   border-radius: 50%;
   display: inline-block;
   -webkit-transition: background-color 0.6s ease;
+  -o-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 section.carousel .active, section.carousel .dot:hover {
