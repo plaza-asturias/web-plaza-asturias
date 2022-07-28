@@ -1038,6 +1038,13 @@ section.dishes-list h3 {
   margin-top: 2rem;
   color: #B32523;
 }
+section.dishes-list h4 {
+  color: #B32523;
+  margin-top: 0.9rem;
+}
+section.dishes-list h4:nth-of-type(1) {
+  margin-top: 0;
+}
 section.dishes-list span.subtitle {
   font-size: 1rem;
   display: block;
