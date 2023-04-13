@@ -992,7 +992,7 @@ section.img-tape img {
 }
 @media (max-width: 380px) {
   section.img-tape img {
-    height: 5rem;
+    height: 7rem;
   }
 }
 @media (min-width: 381px) and (max-width: 574px) {
@@ -1017,12 +1017,12 @@ section.img-tape img {
 }
 @media (min-width: 1101px) and (max-width: 1400px) {
   section.img-tape img {
-    height: 6rem;
+    height: 8rem;
   }
 }
 @media (min-width: 1401px) {
   section.img-tape img {
-    height: 7rem;
+    height: 9rem;
   }
 }
 
