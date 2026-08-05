@@ -1,0 +1,25 @@
+# Plaza Asturias
+
+> Restaurante español (bodegón) en el centro de Buenos Aires, Argentina, atendido por sus dueños desde hace décadas. Cocina tradicional española: paellas, mariscos, pescados, cochinillo, fabada asturiana y más.
+
+Plaza Asturias está ubicado en Avenida de Mayo 1185 (esquina Salta), CABA, a cuatro cuadras del Obelisco. Ofrece atención en salón, pedidos para llevar y reservas por WhatsApp.
+
+## Páginas principales
+
+- [Inicio](https://plaza-asturias.com.ar/): Presentación del restaurante, historia y contacto.
+- [Carta](https://plaza-asturias.com.ar/carta.html): Menú completo con platos y precios actualizados.
+- [Nuestro Salón](https://plaza-asturias.com.ar/salon.html): Fotos y descripción del salón del restaurante.
+- [Pedidos Online](https://plaza-asturias.com.ar/pedidos-online.html): Cómo hacer pedidos y reservas por WhatsApp.
+
+## Datos de contacto
+
+- Dirección: Avenida de Mayo 1185 (esquina Salta), CABA, Argentina
+- Teléfono: (011) 4382-7334
+- WhatsApp: +54 9 11 5760-9462
+- Email: info@plaza-asturias.com.ar
+- Horarios: Lunes a viernes 11:30–17:00 y 19:00–01:00 | Sábados 19:00–02:00 | Domingos 12:00–17:00
+
+## Notas
+
+- Los precios de la carta se actualizan periódicamente; la página carta.html siempre refleja el precio vigente.
+- Sitio estático en HTML plano, sin API ni contenido dinámico.

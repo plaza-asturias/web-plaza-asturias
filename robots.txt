@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /temp/
+Disallow: /vendor/
+Disallow: /sass/
+Disallow: /.well-known/pki-validation/
+Disallow: /platosdeldia.html
+
+Sitemap: https://plaza-asturias.com.ar/sitemap.xml
